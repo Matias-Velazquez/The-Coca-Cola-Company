@@ -6,6 +6,10 @@ a {
     display: inline-block;
 }
 
+p {
+    color: black;
+}
+
 header {
     padding: 15px 0;
     position: fixed;
@@ -26,7 +30,7 @@ header .container .logo {
     width: 100px;
 }
 
-header .container a {
+header .container nav a {
    color: black;
    text-decoration: none;
    margin: 0 15px;
@@ -97,5 +101,30 @@ body {
 }
 
 #nosotros {
+    background-image: url(img/latas.jpg);
+    background-size: cover;
+}
 
+#nosotros p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.columna {
+    padding: 0 15px;
+}
+
+.columna-33 {
+    width: 33.33%;
+}
+
+#servicios .bloque-servicio {
+    border: 1px solid grey;
 }
